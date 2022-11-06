@@ -1,0 +1,41 @@
+.footer{
+    width: 500px;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+}
+.footer .footerPart2{
+    width: fit-content;
+    height: auto;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;  
+    float:inline-end;
+    cursor: pointer;
+    
+}
+.footer .footerPart1{
+    width:fit-content;
+    height: auto;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.footer #icons{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}

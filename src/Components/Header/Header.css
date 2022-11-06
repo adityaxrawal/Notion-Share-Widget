@@ -1,0 +1,33 @@
+.Header{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+}
+.searchBar{
+    width: 82%;
+    height: 100%;
+    margin: 3px;
+    background-color: rgb(241, 241, 241);
+    border: transparent;
+    font-size: medium;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.inviteBtn{
+    position: relative;
+}
+.scroller{
+    width: 500px;
+    height: 1px;
+    box-shadow: rgba(55, 53, 47, 0.09) 0px 1px 0px;
+    padding-top: 50px;
+}
+.Header #overlay{
+    position: relative;
+    min-width: 500px;
+    min-height: auto;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: 'background.paper';
+    border-radius: 3px;
+}

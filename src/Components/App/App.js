@@ -1,9 +1,9 @@
-import './App.css';
-import Widget from './Widget'
+import '../App/App.css';
+import Widget from '../Widget/Widget.js'
 
 function App() {
   return (
-    <div className="App">
+    <div className="Apps">
       Hello React App
       <Widget/>
     </div>

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import './Widget.css';
-import Body from './Body';
-import Footer from './Footer';
-import Header from './Header';
+import Body from '../Body/Body.js';
+import Footer from '../Footer/Footer.js';
+import Header from '../Header/Header.js';
 import Box from '@mui/material/Box';
 import Popper from '@mui/material/Popper';
 import Button from '@mui/material/Button';

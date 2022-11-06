@@ -1,8 +1,7 @@
 import Button from '@mui/material/Button'
 import React from 'react'
-import './Header.css'
-import './Overlay.js'
-import Overlay from './Overlay.js'
+import '../Header/Header.css'
+import Overlay from '../Overlay/Overlay.js'
 
 function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null)

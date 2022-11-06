@@ -1,7 +1,7 @@
 import React from 'react'
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import InsertLinkIcon from '@mui/icons-material/InsertLink';
-import './Footer.css';
+import '../Footer/Footer.css';
 
 function Footer() {
   return (

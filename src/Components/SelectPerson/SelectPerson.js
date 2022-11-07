@@ -9,8 +9,10 @@ function SelectPerson() {
   const [searchTerm, setSearchTerm] = useState("")
   const [Value, setValue] = useState("")
   const AddPersontoSearchBar=(val)=>{
-    setValue(val.name)
+    if( Value === "") setValue(val.name + ',')
+    else setValue(Value + ',' + val.name)
     setAnchorEl(null)
+
   }
   const handleChange=(e)=>{
     setSearchTerm(e.target.value)

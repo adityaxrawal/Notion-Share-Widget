@@ -1,3 +1,5 @@
+/* ================================================================================================================================== */
+/* Search Bar to Select a Person to send invite */
 .selectPerson .selectBox{
     display: inline-flex;
     position: relative;
@@ -31,13 +33,16 @@
 .selectMenuPopper .selectMenu{
     height: 50px;
 }
-
+/* =================================================================================================================================== */
 /* People List Data */
 .PeopleContainer{
     display: table;
     position: relative;
     min-height: 400px;
     justify-content: space-evenly;
+}
+.PeopleContainer .peopleDetails{
+    min-width: 300px;
 }
 .PeopleContainer .peopleData{
     display: flex;
@@ -59,6 +64,11 @@
 .PeopleContainer .peopleDropdown{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    
+}
+.heading{
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
 }
 /* ============================================================================================================================ */

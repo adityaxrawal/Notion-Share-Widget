@@ -9,8 +9,10 @@ function SelectPerson() {
   const [searchTerm, setSearchTerm] = useState("")
   const [Value, setValue] = useState("")
   const AddPersontoSearchBar=(val)=>{
-    setValue(val.name)
+    if( Value === "") setValue(val.name + ',')
+    else setValue(Value + ',' + val.name)
     setAnchorEl(null)
+
   }
   const handleChange=(e)=>{
     setSearchTerm(e.target.value)
@@ -29,6 +31,8 @@ function SelectPerson() {
   // ================================================================================================================================
   return (
     <div>
+      {/* ============================================================================================================================== */}
+      {/* Search Bar to select the person from list */}
       <div className='selectPerson'>
         <input  
         className='selectSearchBar'
@@ -38,6 +42,8 @@ function SelectPerson() {
         onClick={handleClick3}
         onChange={handleChange}/>
       </div>
+      {/* =============================================================================================================================== */}
+      {/* Popover for selecting people from the list */}
       <Popover
         id={id}
         open={open}
@@ -45,8 +51,7 @@ function SelectPerson() {
         onClose={handleClose3}
         anchorOrigin={{vertical: '500', horizontal: 'right'}}
         sx={{left:"-335px", top:"43px"}}>
-
-        <h3>Select a person</h3>
+        <h3 className='heading'>Select a person</h3>
         <div className='PeopleContainer'>
            {JSONDATAPERSON.filter((val) => {
             if (searchTerm === "") {
@@ -70,8 +75,8 @@ function SelectPerson() {
             );
           })}
         </div>
-        This is the content of the popper.
       </Popover>
+      {/* ================================================================================================================================= */}
     </div>
   )
 }

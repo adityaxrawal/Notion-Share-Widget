@@ -7,6 +7,7 @@ function PeopleList() {
   return (
     <div>
         <div className='PeopleContainer'>
+            <div className='peopleDataContainer'>
            {JSONDATAPERSON.map((val, key) => {
             return (
               <div className="peopleData" key={key}>
@@ -18,7 +19,8 @@ function PeopleList() {
                 <div className='peopleDropdown'><Dropdown/></div>
               </div>
             );
-          })}
+            })}
+            </div>
         </div>
     </div>
   )

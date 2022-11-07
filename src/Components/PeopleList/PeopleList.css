@@ -1,0 +1,26 @@
+.PeopleContainer{
+    display: table;
+    position: relative;
+    justify-content: space-between;
+}
+.PeopleContainer .peopleData{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+.PeopleContainer .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    padding: 2px;
+    margin: 3px;
+    cursor: pointer;
+}
+.PeopleContainer .peopleDropdown{
+    display: flex;
+    align-items: center;
+}

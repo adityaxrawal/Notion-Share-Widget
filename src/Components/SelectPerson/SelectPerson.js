@@ -14,7 +14,6 @@ function SelectPerson() {
   }
   const handleChange=(e)=>{
     setSearchTerm(e.target.value)
-    setValue()
   }
   // =============================================================================================================================
   // Popover Menu Bar

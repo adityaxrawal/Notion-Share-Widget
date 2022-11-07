@@ -46,7 +46,7 @@ function SelectPerson() {
         anchorOrigin={{vertical: '500', horizontal: 'right'}}
         sx={{left:"-335px", top:"43px"}}>
 
-        <h3>Select a person</h3>
+        <h3 className='heading'>Select a person</h3>
         <div className='PeopleContainer'>
            {JSONDATAPERSON.filter((val) => {
             if (searchTerm === "") {
@@ -70,7 +70,6 @@ function SelectPerson() {
             );
           })}
         </div>
-        This is the content of the popper.
       </Popover>
     </div>
   )

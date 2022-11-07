@@ -21,6 +21,6 @@
     cursor: pointer;
 }
 .PeopleContainer .peopleDropdown{
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }

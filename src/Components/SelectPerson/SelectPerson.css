@@ -59,6 +59,11 @@
 .PeopleContainer .peopleDropdown{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    
+}
+.heading{
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
 }
 /* ============================================================================================================================ */

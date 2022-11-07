@@ -1,0 +1,64 @@
+.selectPerson .selectBox{
+    display: inline-flex;
+    position: relative;
+    top:0px;
+    left:0px;
+    width:200px; 
+    height:25px;
+    line-height:20px;
+    margin:0;
+    padding:0;
+}
+.selectPerson .selectSearchBar{
+    display: inline-flex;
+    align-items: center;
+    min-width: 350px;
+    min-height: 40px;
+    background-color: #eee;
+    border: transparent;
+    font-size: medium;
+    border-radius: 4px;
+    cursor: text;
+    margin-right: 5px;
+}
+.selectPerson .selectSearchBar:focus{
+    outline: 0px;
+    border: none;
+}
+.selectMenuPopper{
+    height: 50px;
+}
+.selectMenuPopper .selectMenu{
+    height: 50px;
+}
+
+/* People List Data */
+.PeopleContainer{
+    display: table;
+    position: relative;
+    min-height: 400px;
+    justify-content: space-evenly;
+}
+.PeopleContainer .peopleData{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+.PeopleContainer .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    padding: 2px;
+    margin: 3px;
+    cursor: pointer;
+}
+.PeopleContainer .peopleDropdown{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* ============================================================================================================================ */

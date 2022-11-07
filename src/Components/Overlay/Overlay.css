@@ -1,0 +1,75 @@
+/* ================================================================================================================================== */
+/* Header */
+.innerHeader{
+    display: table;
+    position: relative;
+    min-width: 450px;
+    min-height: 300px;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.innerHeader .innerSearchBar{
+    position: relative;
+    display: inline-flex;
+}
+/* ================================================================================================================================== */
+/* Body TexT Area */
+.innerHeader .innerBody{
+    position: relative;
+    display: table;
+    min-width: 425px;
+    min-height: 200px;
+    margin-top: 8px;
+    border-radius: 3px;
+    cursor: text;
+    background-color: #eee;
+    padding: 15px;
+    overflow: scroll;
+}
+.innerHeader .innerBody:focus{
+    outline: 0px;
+    border: none;
+}
+/* =============================================================================================================== */
+/* Footer */
+.footer2{
+    width: 459px;
+    height: 50px;
+    display: inline-flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    font-size: small;
+    margin-top: 5px;
+}
+.footer2 .footerPart3{
+    width: auto;
+    height: 50px;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: small;
+}
+.footer2 .footerPart4{
+    width:auto;
+    height: auto;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 14px;
+    font-size: x-small; 
+}
+.footer2 #icon{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+/* ================================================================================================================================== */

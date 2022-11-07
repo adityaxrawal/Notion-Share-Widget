@@ -1,0 +1,32 @@
+[
+    {
+      "value": "one",
+      "img": "https://thumbsnap.com/i/QXiARHda.png",
+      "name": "Aditya Rawal",
+      "email": "ar.adityarawal@gmail.com"
+    },
+    {
+        "value": "two",
+        "img": "https://thumbsnap.com/i/tc2ejGU9.jpg",
+        "name": "Ankit Pansari",
+        "email": "ceo@oslash.com"
+    },
+    {
+      "value": "three",
+      "img": "https://thumbsnap.com/i/fZYFrTnC.jpg",
+      "name": "Bill Gates",
+      "email": "bill@microsoft.com"
+    },
+    {
+      "value": "four",
+      "img": "https://thumbsnap.com/i/a5V1xbod.jpg",
+      "name": "Warren Buffett",
+      "email": "warren@berkshirehathaway.com"
+    },
+    {
+      "value": "five",
+      "img": "https://thumbsnap.com/i/DZ2ukft5.jpg",
+      "name": "Tim Cook",
+      "email": "tim@apple.com"
+    }
+  ]

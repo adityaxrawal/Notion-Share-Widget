@@ -1,15 +1,57 @@
+/* ================================================================================ */
+/* First Popper */
 #button{
     margin: 50px;
     padding: 10px;
     color: black;
 }
 .box{
+    display: block;
     position: relative;
     min-width: 500px;
     min-height: auto;
     padding: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* border: 1px solid red; */
+    background-color: 'background.paper';
+    border-radius: 3px;
+}
+/* ==================================================================================== */
+/* Header CSS */
+.Header{
+    display: inline-flex;
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    gap: 8px;
+}
+.Header .searchBar{
+    width: 80%;
+    height: 100%;
+    margin: 3px;
+    padding-right: 220px;
+    background-color: rgb(241, 241, 241);
+    outline: none;
+    border: none;
+    font-size: medium;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+}
+.scroller{
+    width: 500px;
+    height: 1px;
+    box-shadow: rgba(55, 53, 47, 0.09) 0px 1px 0px;
+    padding-top: 50px;
+}
+/* ============================================================================== */
+/* Second Popper */
+.box2{
+    position: relative;
+    min-width: 460px;
+    min-height: 300px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: 'background.paper';
     border-radius: 3px;
 }

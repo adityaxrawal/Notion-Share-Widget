@@ -1,15 +1,19 @@
 .PeopleContainer{
+    min-width: 300px;
     display: table;
     position: relative;
     justify-content: space-between;
 }
 .PeopleContainer .peopleData{
-    display: flex;
+    display: flex ;
     position: relative;
     align-items: center;
     cursor: pointer;
     padding: 5px;
     margin: 5px;
+}
+.PeopleContainer .peopleDetails{
+    min-width: 300px;
 }
 .PeopleContainer .avatar{
     width: 50px;

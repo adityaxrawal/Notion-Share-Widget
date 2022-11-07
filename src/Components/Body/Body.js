@@ -9,6 +9,8 @@ import '../Body/Body.css';
 function Body() {
   return (
     <div className='Body'>
+        {/* ============================================================================================================================ */}
+        {/* Share to Web Section */}
         <section className='shareWeb'>
             <PublicIcon id="icon"/>
             <div className='linkToggleDiv'>
@@ -38,6 +40,8 @@ function Body() {
                 <Button variant='text' className='copyLinkBtn'>Copy Web Link</Button>
             </div>
         </section>
+        {/* ============================================================================================================================== */}
+        {/*  Show link option to display link customization properties */}
         <section className='linkOptions'>
             <details close>
                 <summary>
@@ -79,6 +83,7 @@ function Body() {
                     </div>
                 </div>
             </details>
+            {/* ================================================================================================================================ */}
         </section>
     </div>
   )

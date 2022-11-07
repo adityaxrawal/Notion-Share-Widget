@@ -31,6 +31,8 @@ function SelectPerson() {
   // ================================================================================================================================
   return (
     <div>
+      {/* ============================================================================================================================== */}
+      {/* Search Bar to select the person from list */}
       <div className='selectPerson'>
         <input  
         className='selectSearchBar'
@@ -40,6 +42,8 @@ function SelectPerson() {
         onClick={handleClick3}
         onChange={handleChange}/>
       </div>
+      {/* =============================================================================================================================== */}
+      {/* Popover for selecting people from the list */}
       <Popover
         id={id}
         open={open}
@@ -47,7 +51,6 @@ function SelectPerson() {
         onClose={handleClose3}
         anchorOrigin={{vertical: '500', horizontal: 'right'}}
         sx={{left:"-335px", top:"43px"}}>
-
         <h3 className='heading'>Select a person</h3>
         <div className='PeopleContainer'>
            {JSONDATAPERSON.filter((val) => {
@@ -73,6 +76,7 @@ function SelectPerson() {
           })}
         </div>
       </Popover>
+      {/* ================================================================================================================================= */}
     </div>
   )
 }
